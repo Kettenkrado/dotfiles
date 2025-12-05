@@ -1,0 +1,56 @@
+patch:
+  # 全局外观设置
+  "style/color_scheme": macos_light   # 【切换皮肤】在此处修改：macos_light 或 macos_dark
+  "style/horizontal": true            # 开启横排
+  "style/candidate_list_layout": linear # 线性排列（新版横排参数）
+  "style/font_face": "PingFang SC"    # 字体，推荐用苹方
+  "style/font_point": 16              # 字体大小，适合高分屏
+  "style/corner_radius": 6            # 窗口圆角
+  "style/inline_preedit": true        # 嵌入式编码：拼音直接显示在光标处，而不是候选框里（推荐开启，视觉更清爽）
+
+  # 皮肤预设 1: macOS 浅色风格
+  "preset_color_schemes/macos_light":
+    name: "macOS Light"
+    author: "Lynn's Config"
+    horizontal: true
+    back_color: 0xFFFFFF              # 背景色 (BGR格式，下同)
+    border_color: 0xFFFFFF            # 边框色
+    text_color: 0x424242              # 普通文字颜色
+    label_color: 0x999999             # 序号颜色 (1. 2. 3.)
+    candidate_text_color: 0x424242    # 候选字颜色
+    comment_text_color: 0x999999      # 提示码颜色 (如 [粤语] 等标签)
+    hilited_text_color: 0xFFFFFF      # 选中候选项的文字颜色
+    hilited_back_color: 0xFF7A00      # 选中候选项的背景色 (macOS 蓝)
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_label_color: 0xFFFFFF
+    hilited_comment_text_color: 0xFFFFFF
+
+  # 皮肤预设 2: macOS 深色风格
+  "preset_color_schemes/macos_dark":
+    name: "macOS Dark"
+    author: "Lynn's Config"
+    horizontal: true
+    back_color: 0x2C2C2C              # 背景深灰
+    border_color: 0x2C2C2C            # 边框同色，无边框感
+    text_color: 0xDDDDDD              # 文字灰白
+    label_color: 0x666666             # 序号深灰
+    candidate_text_color: 0xDDDDDD
+    comment_text_color: 0x666666
+    hilited_text_color: 0xFFFFFF      # 选中文字白
+    hilited_back_color: 0xFF7A00      # 选中背景蓝
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_label_color: 0xFFFFFF
+  
+  # 在这些 App 里禁止自动切成英文 (ascii_mode: false)
+  # 我配置的英文输入由系统 ABC 输入法负责，Rime 只要负责中文就好
+  app_options:
+    com.microsoft.VSCode:
+      ascii_mode: false
+    com.googlecode.iterm2:
+      ascii_mode: false
+    com.apple.Terminal:
+      ascii_mode: false
+    com.jetbrains.intellij:
+      ascii_mode: false
+    com.runningwithcrayons.Alfred:
+      ascii_mode: false

@@ -1,0 +1,18 @@
+patch:
+  # 方案列表
+  schema_list:
+    - schema: luna_pinyin_simp
+    - schema: luna_pinyin
+
+  # 禁用系统自带快捷键
+  "ascii_composer/switch_key":
+    Caps_Lock: noop
+    Shift_L: noop
+    Shift_R: noop
+    Control_L: noop
+    Control_R: noop
+
+  # 自定义方案选单快捷键
+  "switcher/hotkeys":
+    - "Control+Alt+f"
+    - "Control+Alt+F"
