@@ -33,4 +33,9 @@ chmod +x install.sh
 ## 📂 目录结构
 
   - `rime/`: 小狼毫输入法配置
+  - `vscode/`: user settings
   - `install.sh`: 自动化部署脚本
+
+## Memo
+Reinstall vscode extensions:
+`cat ~/dotfiles/vscode/extensions_list.txt | xargs -L 1 code --install-extension`

@@ -1,0 +1,84 @@
+{
+    "git.openRepositoryInParentFolders": "always",
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "makefile.configureOnOpen": true,
+    "editor.inlineSuggest.edits.allowCodeShifting": "horizontal",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "python.analysis.aiCodeActions": {
+        
+        "implementAbstractClasses": true,
+        "generateSymbol": true,
+        "convertFormatString": true
+    },
+    "python-envs.alwaysUseUv": false,
+    "editor.fontFamily": "'JetBrains Mono', 'SF Mono'",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 14,
+
+    "latex-workshop.latex.texpath": "/Library/TeX/texbin/xelatex",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk"
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "explorer.confirmPasteNative": false,
+    "workbench.iconTheme": "material-icon-theme",
+
+    "leetcode.endpoint": "leetcode",
+    "leetcode.workspaceFolder": "/Users/kettenkrad/Documents/algorithms/buffer",
+    "leetcode.defaultLanguage": "python3",
+    "leetcode.filePath": {
+        "default": {
+            "folder": "",
+            "filename": "${id}_${kebabCaseName}.${ext}"
+        }
+    },
+    "leetcode.showDescription": "In File Comment",
+
+    "editor.inlineSuggest.enabled": false,
+    "editor.wordWrap": "on",
+}

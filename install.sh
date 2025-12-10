@@ -56,6 +56,7 @@ setup_config "rime" "$HOME/Library/Rime"
 
 # setup_config "zsh" "$HOME"
 # setup_config "git" "$HOME"
-# setup_config "vscode" "$HOME/Library/Application Support/Code/User"
+
+setup_config "vscode" "$HOME/Library/Application Support/Code/User"
 
 log "All done! Please restart relevant applications."
