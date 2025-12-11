@@ -81,4 +81,5 @@
 
     "editor.inlineSuggest.enabled": false,
     "editor.wordWrap": "on",
+    "leetcode.hint.commentDescription": false,
 }
